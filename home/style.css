@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#banner {
+	width: 100%;
+	position:  relative;
+}
+
+#logo, #topBanner > div, #topBanner > h2, #topBanner > h1 {
+	position: absolute;
+}
+
+#logo{
+	width: 10%;
+	transform: translate(880%, 800%);
+}
+
+.icon{
+	width: 2%;
+	transform: translate(4500%);
+}
+
+#topBanner {
+	display: flex;
+}
+
+#bannerText {
+	font-size: 300%;
+	color: white;
+	transform:  translate(10%, 200%);
+	text-align: left;
+}
+
+h2 {
+	font-size: 200%;
+	padding:  20px;
+	text-align: center;
+}
+
+#topBanner > h2 {
+	background-color:  white;
+	border-radius: 20px;
+	padding:  5px;
+	transform: translate(10%, 1100%);
+}
+
+p {
+	font-size:  150%;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+}
+
+.place{
+	height:  330px;
+	width:  330px;
+	object-fit:  cover;
+	border-radius: 20px;
+}
+
+
+ol, li {
+	list-style-type:  none;
+	padding:  10px;
+	text-align:  left;
+}
+
+#middleBanner{
+	display:  flex;
+	justify-content:  center;
+	padding-top: 20px;
+}
+
+#middleBanner > img {
+	position:  relative;
+	width: 1200px;
+	border-radius: 20px;
+}
+
+#middleBanner > h2 {
+	position: absolute;
+	transform:  translate(65%, 200%);
+	color: black;
+	background-color:  white;
+	border-radius: 20px;
+	padding: 5px;
+	text-align:  center;
+	font-weight: bold;
+}
